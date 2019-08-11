@@ -23,7 +23,7 @@ Grader to run a c++ program against some test cases parallelly using OpenMP libr
   
        problems
               |->16       
-                  |->input
+                  |->output
                            |->1.in
                               2.in
                               3.in
@@ -54,5 +54,7 @@ Grader to run a c++ program against some test cases parallelly using OpenMP libr
       submission_id                   submission_id
       
       
-   #Example
+   # Example
+   
+   
    

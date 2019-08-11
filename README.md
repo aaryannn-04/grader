@@ -56,5 +56,15 @@ Grader to run a c++ program against some test cases parallelly using OpenMP libr
       
    # Example
    
+   #### Grader Ouput:
+   ![Grader output](/screenshots/Grader.png)
+   
+   #### NodeJs Api output
+   ![node_output](/screenshots/NodeJs_APi.png)
+   
+   #### NodeJs Sample Code
+   ![node_output](/screenshots/Node_js_code.png)
+
+   
    
    

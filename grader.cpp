@@ -29,7 +29,7 @@ string submission_id;
 void sendResponse(string verdict,int test_no,double run_time,string submission_id)
 {
   string URL=base_URL+"?verdict="+verdict+"&tno="+to_string(test_no)+"&run_time="+to_string(run_time)+"&submission_id="+submission_id;
-  cout<<URL<<endl;
+  //cout<<URL<<endl;
   CURL *curl_handle;
   curl_global_init(CURL_GLOBAL_ALL);
   curl_handle = curl_easy_init();
@@ -87,8 +87,6 @@ void inline execute_test_case(int i,string out_folder)
       close(in);
       close(out);
       int err=execv(solution,args);
-      if(err==-1)cout<<"error"<<endl;
-      else cout<<"works fine"<<endl;
   }
   else if(pid>0)   //PARENT
   {

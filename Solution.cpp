@@ -20,6 +20,7 @@ int sum(int L, int R)
 
     // returns the answer
     return sumR - sumL;
+    
 }
 
 // driver program to test the above function
